@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec.bak
+
+# SVN Cache & Index data
+# 注意：以下缓存文件包含内网全量文件树（逾60MB），且含企业内部路径信息，建议不提交至公共代码库
+bundled_cache/cache_*.txt
+bundled_cache/*.txt
+bundled_cache/*.json
+!bundled_cache/.gitkeep
+.svn_search_cache/
+*.txt.bak
+
+# Environments & Virtualenv
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
